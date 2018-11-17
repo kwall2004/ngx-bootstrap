@@ -9,7 +9,7 @@ import {
   SortableComponent,
   SortableItem,
   SortableModule
-} from 'ngx-bootstrap/sortable';
+} from '@kwall2004/ngx-bootstrap/sortable';
 
 const HEROES: string[] = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
 /* tslint:disable-next-line: no-any */

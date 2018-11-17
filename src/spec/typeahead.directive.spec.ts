@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { of } from 'rxjs';
 import { fireEvent } from '../../scripts/helpers';
-import { TypeaheadMatch, TypeaheadDirective, TypeaheadModule } from 'ngx-bootstrap/typeahead';
+import { TypeaheadMatch, TypeaheadDirective, TypeaheadModule } from '@kwall2004/ngx-bootstrap/typeahead';
 
 interface State {
   id: number;
