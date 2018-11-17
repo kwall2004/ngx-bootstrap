@@ -127,7 +127,7 @@ export function bsDatepickerReducer(state = initialDatepickerState,
       const mode = state.view.mode;
       const _date = action.payload && action.payload[0] || state.view.date;
       const date = getViewDate(_date, state.minDate, state.maxDate);
-      newState.view = { mode, date };
+      newState.view = { mode, date, hold: true };
 
       return Object.assign({}, state, newState);
     }
@@ -161,13 +161,17 @@ function calculateReducer(state: BsDatepickerState): BsDatepickerState {
 
   if (state.view.mode === 'day') {
     state.monthViewOptions.firstDayOfWeek = getLocale(state.locale).firstDayOfWeek();
-    const monthsModel = new Array(displayMonths);
+    let monthsModel = new Array(displayMonths);
     for (let monthIndex = 0; monthIndex < displayMonths; monthIndex++) {
-      // todo: for unlinked calendars it will be harder
-      monthsModel[monthIndex] = calcDaysCalendar(
-        viewDate,
-        state.monthViewOptions
-      );
+      if (state.view.hold && state.monthsModel && state.monthsModel.length === monthsModel.length) {
+        monthsModel = [...state.monthsModel];
+      } else {
+        // todo: for unlinked calendars it will be harder
+        monthsModel[monthIndex] = calcDaysCalendar(
+          viewDate,
+          state.monthViewOptions
+        );
+      }
       viewDate = shiftDate(viewDate, { month: 1 });
     }
 
