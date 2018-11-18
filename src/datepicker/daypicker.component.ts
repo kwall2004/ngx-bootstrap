@@ -1,7 +1,7 @@
 // @deprecated
 // tslint:disable
 import { Component, OnInit } from '@angular/core';
-import { isBs3 } from '@kwall2004/ngx-bootstrap/utils';
+import { isBs3 } from '@nk-dev/ngx-bootstrap/utils';
 import { DatePickerInnerComponent } from './datepicker-inner.component';
 
 @Component({

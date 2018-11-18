@@ -9,7 +9,7 @@ import {
   Renderer2
 } from '@angular/core';
 
-import { isBs3, Utils } from '@kwall2004/ngx-bootstrap/utils';
+import { isBs3, Utils } from '@nk-dev/ngx-bootstrap/utils';
 import { latinize } from './typeahead-utils';
 import { TypeaheadMatch } from './typeahead-match.class';
 import { TypeaheadDirective } from './typeahead.directive';

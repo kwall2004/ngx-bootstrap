@@ -6,7 +6,7 @@ import {
   shiftDate,
   endOf,
   startOf
-} from '@kwall2004/ngx-bootstrap/chronos';
+} from '@nk-dev/ngx-bootstrap/chronos';
 
 export function getStartingDayOfCalendar(date: Date,
                                          options: { firstDayOfWeek?: number }): Date {

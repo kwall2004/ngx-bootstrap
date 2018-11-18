@@ -18,8 +18,8 @@ import {
   Type,
   ViewContainerRef
 } from '@angular/core';
-import { PositioningOptions, PositioningService } from '@kwall2004/ngx-bootstrap/positioning';
-import { listenToTriggersV2, registerOutsideClick } from '@kwall2004/ngx-bootstrap/utils';
+import { PositioningOptions, PositioningService } from '@nk-dev/ngx-bootstrap/positioning';
+import { listenToTriggersV2, registerOutsideClick } from '@nk-dev/ngx-bootstrap/utils';
 import { ContentRef } from './content-ref.class';
 import { ListenOptions } from './listen-options.model';
 import { Subscription } from 'rxjs';

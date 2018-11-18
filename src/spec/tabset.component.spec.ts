@@ -1,7 +1,7 @@
 /* tslint:disable: max-file-line-count */
 import { Component, ViewChild } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { TabsetConfig, TabsModule, TabsetComponent } from '@kwall2004/ngx-bootstrap/tabs';
+import { TabsetConfig, TabsModule, TabsetComponent } from '@nk-dev/ngx-bootstrap/tabs';
 
 @Component({
   selector: 'tabs-test',

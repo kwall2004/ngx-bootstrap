@@ -5,7 +5,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 import { AccordionComponent } from './accordion.component';
 import { AccordionConfig } from './accordion.config';
 import { AccordionPanelComponent } from './accordion-group.component';
-import { CollapseModule } from '@kwall2004/ngx-bootstrap/collapse';
+import { CollapseModule } from '@nk-dev/ngx-bootstrap/collapse';
 
 @NgModule({
   imports: [CommonModule, CollapseModule],

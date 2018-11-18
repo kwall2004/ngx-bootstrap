@@ -28,10 +28,10 @@ async function buildAll() {
 
   await execa.shell(`npm run link`);
 
-  // const requiredModules = ['collapse', 'chronos', 'utils', 'positioning', 'component-loader', 'dropdown', 'locale',
-  //   'alert', 'buttons', 'carousel', 'mini-ngrx', 'modal', 'pagination', 'popover', 'progressbar', 'rating',
-  //   'sortable', 'tabs', 'timepicker', 'tooltip', 'typeahead', 'datepicker', 'accordion', 'common'];
-  const requiredModules = ['datepicker', 'common'];
+  const requiredModules = ['collapse', 'chronos', 'utils', 'positioning', 'component-loader', 'dropdown', 'locale',
+    'alert', 'buttons', 'carousel', 'mini-ngrx', 'modal', 'pagination', 'popover', 'progressbar', 'rating',
+    'sortable', 'tabs', 'timepicker', 'tooltip', 'typeahead', 'datepicker', 'accordion', 'common'];
+  // const requiredModules = ['datepicker', 'common'];
 
   await buildModules(requiredModules);
 

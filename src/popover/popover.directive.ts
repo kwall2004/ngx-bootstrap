@@ -3,7 +3,7 @@ import {
   Renderer2, TemplateRef, ViewContainerRef
 } from '@angular/core';
 import { PopoverConfig } from './popover.config';
-import { ComponentLoader, ComponentLoaderFactory } from '@kwall2004/ngx-bootstrap/component-loader';
+import { ComponentLoader, ComponentLoaderFactory } from '@nk-dev/ngx-bootstrap/component-loader';
 import { PopoverContainerComponent } from './popover-container.component';
 
 /**

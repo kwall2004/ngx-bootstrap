@@ -3,7 +3,7 @@ import {
   MonthsCalendarViewModel,
   CalendarCellViewModel
 } from '../models';
-import { startOf, formatDate } from '@kwall2004/ngx-bootstrap/chronos';
+import { startOf, formatDate } from '@nk-dev/ngx-bootstrap/chronos';
 import { createMatrix } from '../utils/matrix-utils';
 
 const height = 4;

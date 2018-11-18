@@ -2,7 +2,7 @@
 import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CollapseModule } from '@kwall2004/ngx-bootstrap/collapse';
+import { CollapseModule } from '@nk-dev/ngx-bootstrap/collapse';
 
 const template = `
   <div [collapse]="isCollapsed">

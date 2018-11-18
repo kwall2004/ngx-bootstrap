@@ -3,7 +3,7 @@ import {
   NgZone, Renderer2, ViewContainerRef
 } from '@angular/core';
 import { ComponentLoader } from './component-loader.class';
-import { PositioningService } from '@kwall2004/ngx-bootstrap/positioning';
+import { PositioningService } from '@nk-dev/ngx-bootstrap/positioning';
 
 @Injectable()
 export class ComponentLoaderFactory {

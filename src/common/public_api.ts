@@ -1,49 +1,49 @@
 /* tslint:disable */
-import { AccordionModule } from '@kwall2004/ngx-bootstrap/accordion';
-import { AlertModule } from '@kwall2004/ngx-bootstrap/alert';
-import { ButtonsModule } from '@kwall2004/ngx-bootstrap/buttons';
-import { CarouselModule } from '@kwall2004/ngx-bootstrap/carousel';
-import { CollapseModule } from '@kwall2004/ngx-bootstrap/collapse';
-import { BsDaterangepickerConfig } from '@kwall2004/ngx-bootstrap/datepicker';
-import { DatepickerModule } from '@kwall2004/ngx-bootstrap/datepicker';
-import { BsDropdownModule } from '@kwall2004/ngx-bootstrap/dropdown';
-import { ModalModule } from '@kwall2004/ngx-bootstrap/modal';
-import { PaginationModule } from '@kwall2004/ngx-bootstrap/pagination';
-import { PopoverModule } from '@kwall2004/ngx-bootstrap/popover';
-import { ProgressbarModule } from '@kwall2004/ngx-bootstrap/progressbar';
-import { RatingModule } from '@kwall2004/ngx-bootstrap/rating';
-import { SortableModule } from '@kwall2004/ngx-bootstrap/sortable';
-import { TabsModule } from '@kwall2004/ngx-bootstrap/tabs';
-import { TimepickerModule } from '@kwall2004/ngx-bootstrap/timepicker';
-import { TooltipModule } from '@kwall2004/ngx-bootstrap/tooltip';
-import { TypeaheadModule } from '@kwall2004/ngx-bootstrap/typeahead';
+import { AccordionModule } from '@nk-dev/ngx-bootstrap/accordion';
+import { AlertModule } from '@nk-dev/ngx-bootstrap/alert';
+import { ButtonsModule } from '@nk-dev/ngx-bootstrap/buttons';
+import { CarouselModule } from '@nk-dev/ngx-bootstrap/carousel';
+import { CollapseModule } from '@nk-dev/ngx-bootstrap/collapse';
+import { BsDaterangepickerConfig } from '@nk-dev/ngx-bootstrap/datepicker';
+import { DatepickerModule } from '@nk-dev/ngx-bootstrap/datepicker';
+import { BsDropdownModule } from '@nk-dev/ngx-bootstrap/dropdown';
+import { ModalModule } from '@nk-dev/ngx-bootstrap/modal';
+import { PaginationModule } from '@nk-dev/ngx-bootstrap/pagination';
+import { PopoverModule } from '@nk-dev/ngx-bootstrap/popover';
+import { ProgressbarModule } from '@nk-dev/ngx-bootstrap/progressbar';
+import { RatingModule } from '@nk-dev/ngx-bootstrap/rating';
+import { SortableModule } from '@nk-dev/ngx-bootstrap/sortable';
+import { TabsModule } from '@nk-dev/ngx-bootstrap/tabs';
+import { TimepickerModule } from '@nk-dev/ngx-bootstrap/timepicker';
+import { TooltipModule } from '@nk-dev/ngx-bootstrap/tooltip';
+import { TypeaheadModule } from '@nk-dev/ngx-bootstrap/typeahead';
 
-export { listLocales } from '@kwall2004/ngx-bootstrap/chronos';
-export { setTheme } from '@kwall2004/ngx-bootstrap/utils';
+export { listLocales } from '@nk-dev/ngx-bootstrap/chronos';
+export { setTheme } from '@nk-dev/ngx-bootstrap/utils';
 
 export {
   AccordionComponent,
   AccordionConfig,
   AccordionModule,
   AccordionPanelComponent
-} from '@kwall2004/ngx-bootstrap/accordion';
+} from '@nk-dev/ngx-bootstrap/accordion';
 
-export { AlertComponent, AlertConfig, AlertModule } from '@kwall2004/ngx-bootstrap/alert';
+export { AlertComponent, AlertConfig, AlertModule } from '@nk-dev/ngx-bootstrap/alert';
 
 export {
   ButtonCheckboxDirective,
   ButtonRadioDirective,
   ButtonsModule
-} from '@kwall2004/ngx-bootstrap/buttons';
+} from '@nk-dev/ngx-bootstrap/buttons';
 
 export {
   CarouselComponent,
   CarouselConfig,
   CarouselModule,
   SlideComponent
-} from '@kwall2004/ngx-bootstrap/carousel';
+} from '@nk-dev/ngx-bootstrap/carousel';
 
-export { CollapseDirective, CollapseModule } from '@kwall2004/ngx-bootstrap/collapse';
+export { CollapseDirective, CollapseModule } from '@nk-dev/ngx-bootstrap/collapse';
 
 export {
   DateFormatter,
@@ -59,7 +59,7 @@ export {
   BsLocaleService,
   BsDaterangepickerDirective,
   BsDatepickerDirective
-} from '@kwall2004/ngx-bootstrap/datepicker';
+} from '@nk-dev/ngx-bootstrap/datepicker';
 
 export {
   ModalDirective,
@@ -69,7 +69,7 @@ export {
   ModalModule,
   BsModalRef,
   BsModalService
-} from '@kwall2004/ngx-bootstrap/modal';
+} from '@nk-dev/ngx-bootstrap/modal';
 
 export {
   BsDropdownModule,
@@ -79,7 +79,7 @@ export {
   BsDropdownDirective,
   BsDropdownMenuDirective,
   BsDropdownToggleDirective
-} from '@kwall2004/ngx-bootstrap/dropdown';
+} from '@nk-dev/ngx-bootstrap/dropdown';
 
 export {
   PagerComponent,
@@ -87,16 +87,16 @@ export {
   PaginationConfig,
   PaginationModule,
   PageChangedEvent
-} from '@kwall2004/ngx-bootstrap/pagination';
+} from '@nk-dev/ngx-bootstrap/pagination';
 
 export {
   BarComponent,
   ProgressbarComponent,
   ProgressbarConfig,
   ProgressbarModule
-} from '@kwall2004/ngx-bootstrap/progressbar';
+} from '@nk-dev/ngx-bootstrap/progressbar';
 
-export { RatingComponent, RatingModule } from '@kwall2004/ngx-bootstrap/rating';
+export { RatingComponent, RatingModule } from '@nk-dev/ngx-bootstrap/rating';
 
 export {
   DraggableItem,
@@ -104,7 +104,7 @@ export {
   SortableItem,
   SortableComponent,
   SortableModule
-} from '@kwall2004/ngx-bootstrap/sortable';
+} from '@nk-dev/ngx-bootstrap/sortable';
 
 export {
   NgTranscludeDirective,
@@ -113,20 +113,20 @@ export {
   TabsetComponent,
   TabsetConfig,
   TabsModule
-} from '@kwall2004/ngx-bootstrap/tabs';
+} from '@nk-dev/ngx-bootstrap/tabs';
 
 export {
   TimepickerComponent,
   TimepickerConfig,
   TimepickerModule
-} from '@kwall2004/ngx-bootstrap/timepicker';
+} from '@nk-dev/ngx-bootstrap/timepicker';
 
 export {
   TooltipConfig,
   TooltipContainerComponent,
   TooltipDirective,
   TooltipModule
-} from '@kwall2004/ngx-bootstrap/tooltip';
+} from '@nk-dev/ngx-bootstrap/tooltip';
 
 export {
   TypeaheadOptions,
@@ -134,14 +134,14 @@ export {
   TypeaheadDirective,
   TypeaheadMatch,
   TypeaheadModule
-} from '@kwall2004/ngx-bootstrap/typeahead';
+} from '@nk-dev/ngx-bootstrap/typeahead';
 
 export {
   PopoverConfig,
   PopoverContainerComponent,
   PopoverDirective,
   PopoverModule
-} from '@kwall2004/ngx-bootstrap/popover';
+} from '@nk-dev/ngx-bootstrap/popover';
 
 export {
   OnChange,
@@ -155,27 +155,27 @@ export {
   Utils,
   listenToTriggersV2,
   registerOutsideClick
-} from '@kwall2004/ngx-bootstrap/utils';
+} from '@nk-dev/ngx-bootstrap/utils';
 
 export {
   ComponentLoader,
   ComponentLoaderFactory,
   ContentRef,
   BsComponentRef
-} from '@kwall2004/ngx-bootstrap/component-loader';
+} from '@nk-dev/ngx-bootstrap/component-loader';
 
 export {
   Positioning,
   PositioningOptions,
   PositioningService,
   positionElements
-} from '@kwall2004/ngx-bootstrap/positioning';
+} from '@nk-dev/ngx-bootstrap/positioning';
 
 export {
   Action,
   MiniState,
   MiniStore
-} from '@kwall2004/ngx-bootstrap/mini-ngrx';
+} from '@nk-dev/ngx-bootstrap/mini-ngrx';
 
 export {
   defineLocale,
@@ -203,6 +203,6 @@ export {
   endOf,
   startOf,
   TimeUnit
-} from '@kwall2004/ngx-bootstrap/chronos';
+} from '@nk-dev/ngx-bootstrap/chronos';
 
-export * from '@kwall2004/ngx-bootstrap/locale';
+export * from '@nk-dev/ngx-bootstrap/locale';

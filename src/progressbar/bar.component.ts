@@ -8,7 +8,7 @@ import {
 } from '@angular/core';
 
 import { ProgressbarComponent } from './progressbar.component';
-import { isBs3 } from '@kwall2004/ngx-bootstrap/utils';
+import { isBs3 } from '@nk-dev/ngx-bootstrap/utils';
 
 // todo: number pipe
 // todo: use query from progress?

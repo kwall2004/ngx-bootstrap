@@ -2,7 +2,7 @@
 // should accept some options
 // todo: split out formatting
 import { DaysCalendarModel, MonthViewOptions } from '../models';
-import { getFirstDayOfMonth } from '@kwall2004/ngx-bootstrap/chronos';
+import { getFirstDayOfMonth } from '@nk-dev/ngx-bootstrap/chronos';
 import { getStartingDayOfCalendar } from '../utils/bs-calendar-utils';
 import { createMatrix } from '../utils/matrix-utils';
 

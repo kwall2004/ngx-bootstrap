@@ -9,7 +9,7 @@ import {
   TimepickerComponent,
   TimepickerConfig,
   TimepickerModule
-} from '@kwall2004/ngx-bootstrap/timepicker';
+} from '@nk-dev/ngx-bootstrap/timepicker';
 
 /* tslint:disable-next-line: no-any */
 function getInputElements(fixture: any) {

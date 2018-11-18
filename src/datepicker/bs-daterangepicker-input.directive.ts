@@ -15,7 +15,7 @@ import {
   ValidationErrors,
   Validator
 } from '@angular/forms';
-import { parseDate, formatDate, getLocale, isAfter, isBefore, isArray, isDateValid } from '@kwall2004/ngx-bootstrap/chronos';
+import { parseDate, formatDate, getLocale, isAfter, isBefore, isArray, isDateValid } from '@nk-dev/ngx-bootstrap/chronos';
 import { BsDaterangepickerDirective } from './bs-daterangepicker.component';
 import { BsLocaleService } from './bs-locale.service';
 
