@@ -4,7 +4,7 @@ import { createGenericTestComponent } from './test/common';
 
 import { Component } from '@angular/core';
 
-import { CollapseModule } from '@nk-dev/ngx-bootstrap/collapse';
+import { CollapseModule } from 'nk-ngx-bootstrap/collapse';
 
 @Component({ selector: 'test-cmp', template: '' })
 class TestComponent {

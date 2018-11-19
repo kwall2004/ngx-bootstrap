@@ -1,4 +1,4 @@
-import { Action } from '@nk-dev/ngx-bootstrap/mini-ngrx';
+import { Action } from 'nk-ngx-bootstrap/mini-ngrx';
 import {
   canChangeHours,
   canChangeMinutes,

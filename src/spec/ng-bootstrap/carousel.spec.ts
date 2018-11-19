@@ -7,7 +7,7 @@ import { discardPeriodicTasks, fakeAsync, inject, TestBed, tick } from '@angular
 
 import { By } from '@angular/platform-browser';
 
-import { CarouselComponent, CarouselConfig, CarouselModule } from '@nk-dev/ngx-bootstrap/carousel';
+import { CarouselComponent, CarouselConfig, CarouselModule } from 'nk-ngx-bootstrap/carousel';
 import { createGenericTestComponent } from './test/common';
 
 @Component({selector: 'test-cmp', template: ''})

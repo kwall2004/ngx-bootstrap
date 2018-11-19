@@ -15,7 +15,7 @@ import {
 import { BsDaterangepickerConfig } from './bs-daterangepicker.config';
 import { BsDaterangepickerContainerComponent } from './themes/bs/bs-daterangepicker-container.component';
 import { Subscription } from 'rxjs';
-import { ComponentLoaderFactory, ComponentLoader } from '@nk-dev/ngx-bootstrap/component-loader';
+import { ComponentLoaderFactory, ComponentLoader } from 'nk-ngx-bootstrap/component-loader';
 import { BsDatepickerConfig } from './bs-datepicker.config';
 import { filter } from 'rxjs/operators';
 

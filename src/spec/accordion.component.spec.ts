@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
-import { AccordionConfig, AccordionModule } from '@nk-dev/ngx-bootstrap/accordion';
+import { AccordionConfig, AccordionModule } from 'nk-ngx-bootstrap/accordion';
 
 @Component({
   selector: 'accordion-test',

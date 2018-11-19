@@ -8,12 +8,12 @@ import {
   OnDestroy, OnInit, Output, Renderer2, ViewContainerRef
 } from '@angular/core';
 
-import { document, window, isBs3, Utils } from '@nk-dev/ngx-bootstrap/utils';
+import { document, window, isBs3, Utils } from 'nk-ngx-bootstrap/utils';
 import { ModalBackdropComponent } from './modal-backdrop.component';
 import {
   CLASS_NAME, DISMISS_REASONS, modalConfigDefaults, ModalOptions
 } from './modal-options.class';
-import { ComponentLoader, ComponentLoaderFactory } from '@nk-dev/ngx-bootstrap/component-loader';
+import { ComponentLoader, ComponentLoaderFactory } from 'nk-ngx-bootstrap/component-loader';
 
 const TRANSITION_DURATION = 300;
 const BACKDROP_TRANSITION_DURATION = 150;

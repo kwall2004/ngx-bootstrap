@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { fakeAsync, inject, TestBed } from '@angular/core/testing';
-import { DraggableItem, DraggableItemService, SortableItem } from '@nk-dev/ngx-bootstrap/sortable';
+import { DraggableItem, DraggableItemService, SortableItem } from 'nk-ngx-bootstrap/sortable';
 
 @Component({
   template: `<h1>Test</h1>`

@@ -16,7 +16,7 @@ import {
   PopoverContainerComponent,
   PopoverDirective,
   PopoverConfig
-} from '@nk-dev/ngx-bootstrap/popover';
+} from 'nk-ngx-bootstrap/popover';
 import { createGenericTestComponent } from './test/common';
 
 @Component({selector: 'test-cmpt', template: ``})

@@ -4,7 +4,7 @@ import {
   ChangeDetectionStrategy
 } from '@angular/core';
 import { TooltipConfig } from './tooltip.config';
-import { isBs3 } from '@nk-dev/ngx-bootstrap/utils';
+import { isBs3 } from 'nk-ngx-bootstrap/utils';
 
 @Component({
   selector: 'bs-tooltip-container',

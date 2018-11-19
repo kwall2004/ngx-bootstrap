@@ -1,7 +1,7 @@
 import {
   Component, HostBinding, Inject, Input, OnDestroy, OnInit, Output, EventEmitter
 } from '@angular/core';
-import { isBs3 } from '@nk-dev/ngx-bootstrap/utils';
+import { isBs3 } from 'nk-ngx-bootstrap/utils';
 import { AccordionComponent } from './accordion.component';
 
 /**

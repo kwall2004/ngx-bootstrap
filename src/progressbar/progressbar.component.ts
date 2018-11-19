@@ -1,6 +1,6 @@
 import { Component, HostBinding, Input } from '@angular/core';
 import { ProgressbarConfig } from './progressbar.config';
-import { isBs3 } from '@nk-dev/ngx-bootstrap/utils';
+import { isBs3 } from 'nk-ngx-bootstrap/utils';
 import { BarComponent } from './bar.component';
 
 @Component({

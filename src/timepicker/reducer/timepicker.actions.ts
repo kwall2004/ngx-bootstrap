@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Action } from '@nk-dev/ngx-bootstrap/mini-ngrx';
+import { Action } from 'nk-ngx-bootstrap/mini-ngrx';
 import {
   TimeChangeEvent,
   TimepickerComponentState,
